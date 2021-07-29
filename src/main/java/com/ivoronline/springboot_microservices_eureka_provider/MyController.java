@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyController {
 
-  @RequestMapping("Hello")
-  String hello() {
+  @RequestMapping("Provider")
+  String provider() {
     return "Hello from Provider";
   }
 
